@@ -73,6 +73,12 @@ nav ul li>a{
     background-position: top left, bottom right;
 }
 
+button > i{
+    margin-right: 5px;
+}
+
+
+
 /* banner section */
 .banner{
     display: flex;
@@ -155,4 +161,43 @@ nav ul li>a{
 .skills-description{
     color: #757575;
 }
+/* resume section start */
 
+.resume{
+    max-width: 1140px;
+    width: 920px;
+    margin: 60px auto;
+}
+.resume-sec-title{
+    padding: 60px 0;
+}
+.resume-sec-col-wrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.resume-col-title{
+    margin-bottom: 23px;
+    color: #474747;
+}
+
+.resume-items{
+    margin-bottom: 24px;
+}
+.resume-items .resume-items-title{
+    color: #474747;
+}
+ .resume-items .titel-info{
+    color: #757575;
+    margin: 10px 0 12px;
+    font-size: 18px;
+}
+.resume-items .resume-items-description{
+    color: #757575;
+    font-size: 14px;
+}
+
+.cv-btn{
+    margin-top: 12px;
+}
